@@ -8,7 +8,7 @@
 
 [&gt;&gt; Kontrak Praktikum](kontrak.md)
 
-[&gt;&gt; Meteri Praktikum](kontrak.md)
+[&gt;&gt; Daftar Materi Praktikum](silabus.md)
 
 ## Tim Asisten Pengajar
 
