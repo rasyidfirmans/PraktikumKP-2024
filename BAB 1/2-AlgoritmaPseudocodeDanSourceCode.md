@@ -1,4 +1,4 @@
-[&lt;&lt; Materi Sebelumnya (Program Sederhana, Variabel, dan Input/Output) &lt;&lt;](1-ProgramSederhanaVariabelInputOutput.md.md)
+[&lt;&lt; Materi Sebelumnya (Program Sederhana, Variabel, dan Input/Output) &lt;&lt;](1-ProgramSederhanaVariabelInputOutput.md)
 
 # 1.2 - Algoritma, Pseudocode, dan Source Code
 
