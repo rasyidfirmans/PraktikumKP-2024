@@ -1,6 +1,6 @@
-[<< Materi Sebelumnya (Program Sederhana, Variabel, dan Input/Output) <<](1-ProgramSederhanaVariabelInputOutput.md.md)
+[&lt;&lt; Materi Sebelumnya (Program Sederhana, Variabel, dan Input/Output) &lt;&lt;](1-ProgramSederhanaVariabelInputOutput.md.md)
 
-# 2.2 - Algoritma, Pseudocode, dan Source Code
+# 1.2 - Algoritma, Pseudocode, dan Source Code
 
 Dalam pembuatan program, kita pasti akan sering berhadapan dengan istilah "algoritma", "pseudocode", dan "source code". Sebenarnya apa sih perbedaan yang paling mendasar di antara mereka bertiga? Mari kita bahas semuanya di sini.
 
@@ -112,4 +112,4 @@ int main() {
 }
 ```
 
-[>> Materi Berikutnya (Operasi Assignment dan Aritmatika)>>](3-OperasiAssignmentDanAritmatika.md)
+[&gt;&gt; Materi Berikutnya (Operasi Assignment dan Aritmatika)&gt;&gt;](3-OperasiAssignmentDanAritmatika.md)

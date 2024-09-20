@@ -1,6 +1,6 @@
-[<< Materi Sebelumnya (Algoritma, Pseudocode, dan Source Code) <<](2-AlgoritmaPseudocodeDanSourceCode.md)
+[&lt;&lt; Materi Sebelumnya (Algoritma, Pseudocode, dan Source Code) &lt;&lt;](2-AlgoritmaPseudocodeDanSourceCode.md)
 
-# 2.3 - Operasi Assignment dan Aritmatika
+# 1.3 - Operasi Assignment dan Aritmatika
 
 Sebuah operasi adalah proses yang melibatkan _operand_ dan operator, untuk menggambarkan sebuah kejadian. Secara matematis, kita sudah sering menemukan operasi, seperti `1 + 1 = 2`.
 
@@ -8,13 +8,13 @@ Sebuah operasi adalah proses yang melibatkan _operand_ dan operator, untuk mengg
 
 Pada dasarnya, operasi aritmatika yang didukung oleh bahasa C meliputi beberapa operator seperti yang dijelaskan pada tabel di bawah ini. Mari kita buat dua variabel sebagai contoh, `a = 20` dan `b = 15`.
 
-| Operator | Nama        | Contoh         |
-| :------: | ----------- | -------------- |
-|    +     | Penambahan  | `a + b = 35`   |
-|    -     | Pengurangan | `a - b = 5`    |
-|    \*    | Perkalian   | `a * b = 300`  |
-|    /     | Pembagian   | `b / a = 0.75` |
-|    %     | Modulo      | `7 % b = 7`    |
+| Operator | Nama          | Contoh           |
+| :------: | ------------- | ---------------- |
+|    +    | Penambahan    | `a + b = 35`   |
+|    -    | Pengurangan   | `a - b = 5`    |
+|    \*    | Perkalian     | `a * b = 300`  |
+|    /    | Pembagian     | `b / a = 0.75` |
+|    %    | Modulo        | `7 % b = 7`    |
 |    ++    | _Increment_ | `a++ = 21`     |
 |    --    | _Decrement_ | `a-- = 19`     |
 
@@ -45,13 +45,13 @@ d = a + b;
 
 Selain operasi assignment dasar di atas, ada beberapa "turunan" dari operasi assignment yang berhubungan sangat erat dengan [operasi aritmatika](#operasi-aritmatika). _Behavior_ atau tingkah laku dari operator-operator di bawah dapat dimisalkan sebagai "laukukan operasi turunan, lalu masukkan hasilnya di _operand_ kiri". Perhatikan tabel di bawah ini.
 
-| Operasi | Tingkah laku                          |
-| :-----: | ------------------------------------- |
-|   +=    | `a += b` ekuivalen dengan `a = a + b` |
-|   -=    | `a -= b` ekuivalen dengan `a = a - b` |
+| Operasi | Tingkah laku                              |
+| :-----: | ----------------------------------------- |
+|   +=   | `a += b` ekuivalen dengan `a = a + b` |
+|   -=   | `a -= b` ekuivalen dengan `a = a - b` |
 |   \*=   | `a *= b` ekuivalen dengan `a = a * b` |
-|   /=    | `a /= b` ekuivalen dengan `a = a / b` |
-|   %=    | `a %= b` ekuivalen dengan `a = a % b` |
+|   /=   | `a /= b` ekuivalen dengan `a = a / b` |
+|   %=   | `a %= b` ekuivalen dengan `a = a % b` |
 
 ## Operator Lanjutan
 
@@ -62,4 +62,4 @@ Selain dua jenis operator dasar tersebut, masih banyak operator lain yang akan d
 - Operator Bitwise
 - Lain-lainnya, seperti conditional/ternary, pointer, dan reference.
 
-[>> Materi Berikutnya (Pemilihan dan Perulangan Sederhana) >>](4-PemilihanPerulangan.md)
+[&gt;&gt; Materi Berikutnya (Pemilihan dan Perulangan Sederhana) &gt;&gt;](4-PemilihanPerulangan.md)

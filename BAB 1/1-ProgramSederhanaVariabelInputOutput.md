@@ -1,4 +1,4 @@
-# 2.1 - Pengantar (Program Sederhana, Variabel, dan Input/Output)
+# 1.1 - Pengantar (Program Sederhana, Variabel, dan Input/Output)
 
 Contoh program sederhana, pengenalan variabel, dan input/output sederhana.
 
