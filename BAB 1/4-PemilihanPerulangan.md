@@ -1,4 +1,6 @@
-# 1.4 - Pemilihan dan Perulangan Sederhana
+[<< Materi Sebelumnya (Operasi Assignment dan Aritmatika) <<](3-OperasiAssignmentDanAritmatika.md)
+
+# 2.4 - Pemilihan dan Perulangan Sederhana
 
 Salah satu hal yang paling fundamental dalam pemrograman adalah adanya operasi pemilihan dan perulangan.
 
@@ -128,145 +130,83 @@ Cukup
 
 </details>
 
-## Pemilihan: switch
+## Perulangan: while
 
-Switch case sangat berguna ketika ingin melakukan perbandingan untuk banyak kasus
-
-## Syntax:
+Format penggunaannya yaitu:
 
 ```c
-switch (/* expression */)
-{
-    case /* konstan */:
-        /* perintah... */
-        break; /* opsional */
-
-    case /* konstan */:
-        /* perintah... */
-        break; 
-        
-    default:  /* opsional */
-        break; 
+while (/* kondisi */) {
+  /* perintah... */
 }
 ```
 
+Contoh penggunaan while dalam program C adalah sebagai berikut:
 
-## Penjelasan:
-
-Contoh penggunaan switch dalam program C adalah sebagai berikut:
-- ketika `pilihan` bernilai 1 maka potongan kode dibawah akan menampilkan **kamu memilih angka 1**
-- ketika `pilihan` bernilai 2 maka potongan kode dibawah akan menampilkan **kamu memilih angka 2**
-- ketika `pilihan` **tidak** bernilai 1 atau 2 maka potongan kode dibawah akan menampilkan **kamu tidak memilih angka 1 dan 2**
+Potongan kode berikut menampilkan "Quack!" sebanyak 10 kali di layar console
 
 ```c
-switch (pilihan)
-{
-    case 1:
-        printf("kamu memilih angka 1\n");
-        break; 
-
-    case 2:
-        printf("kamu memilih angka 2\n");
-        break; 
-        
-    default:  
-        printf("kamu tidak memilih angka 1 dan 2\n");
-        break; 
+int i = 1;
+while (i <= 10) {
+  printf("Quack!\n");
+  i++;
 }
 ```
 
-**switch** statement bisa memiliki **case: labels** sebanyak-banyaknya asalkan setiap **label** bernilai konstan dan unik.
+Analisa kode di atas:
 
-**break** merupakan hal yang penting dalam switch, karena jika tidak digunakan maka semua pernyataan setelah **label yang cocok**, akan dijalankan atau dieksekusi sampai ketemu **break**. contohnya: 
+1. Variabel `i` dideklarasikan kemudian diisi dengan nilai 1
+2. Selagi `i` bernilai kurang dari atau sama dengan 10, maka jalankan perintah `printf("Quack!\n")` kemudian `i++`. Dalam tahap ini, sembari mengulang operasi, program menampilakn "Quack!" ke console kemudian nilai dari variabel `i` di-_increment_ (ditambah dengan 1) kemudian kedua perintah tersebut diulang terus menerus sampai tidak memenuhi kondisi `i <= 10` (variabel `i` bernilai 11 dan 11 <= 10 tentu tidak benar) sehingga program dapat keluar dari perulangan.
 
-- ketika `pilihan` bernilai 1 maka potongan kode dibawah akan menampilkan <br> **aku 1** <br> **aku 2**
-- ketika `pilihan` bernilai 2 maka potongan kode dibawah akan menampilkan <br> **aku 2**
-- ketika `pilihan` bernilai 3 maka potongan kode dibawah akan menampilkan <br> **aku 3** <br> **aku 4** <br> **aku default**
+**Q:** Bagaimana bisa keluar dari perulangan?
 
+**A:** Karena saat `i` mencapai nilai 10, maka akan di-_increment_ supaya nilainya menjadi 11 dan dengan demikian, ulangan berikutnya sudah tidak dijalankan lagi karena kondisinya sudah bernilai salah (`i <= 10` untuk nilai `i = 11`).
+
+Potongan kode berikut menampilkan pola 2 4 6 8 ... 100 di layar console
 
 ```c
-switch (pilihan)
-{
-    case 1:
-        printf("aku 1\n");
-
-    case 2:
-        printf("aku 2\n");
-        break;
-
-    case 3:
-        printf("aku 3\n");
-
-    case 4:
-        printf("aku 4\n");
-        
-    default:  
-        printf("aku default\n");
+int i = 2;
+while (i < 102) {
+  printf("%d ", i);
+  i = i + 2;
 }
 ```
 
-### Case Ranges:
-Case Ranges adalah ekstension dari bahasa C yang berarti ini bukan C standar (tidak bisa digunakan pada semua compiler C)
+Analisa kode di atas:
 
-Cara menggunakannya seperti ini:
-```
-case rendah ... tinggi
-```
-Dengan menggunakan Case Ranges penulisan code menjadi lebih cepat dan mudah dibaca.<br> Berikut perbandingannya:
-- Tidak menggunakan Case Ranges
-  ```c
-    switch (pilihan)
-    {
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-        case 5:
-            printf("angkamu diantara 1 - 5\n");
-            break;
-    }
-  ```
-- Menggunakan Case Ranges
-  ```c
-    switch (pilihan)
-    {
-        case 1 ... 5:
-            printf("angkamu diantara 1 - 5\n");
-            break;
-    }
-    ```
+1. Variabel `i` dideklarasikan kemudian diisi dengan nilai awal pola yaitu 2
+2. Selagi `i` bernilai kurang dari 102, maka jalankan perintah `printf("%d ", i)` kemudian `i = i + 2`. Dalam tahap ini, sembari mengulang operasi, nilai dari variabel `i` ditampilkan di layar kemudian ditambah dengan 2 dan kedua perintah tersebut diulang terus menerus sampai keluar dari perulangan.
+
+**Q:** Bagaimana bisa keluar dari perulangan?
+
+**A:** Ada yang bisa menjelaskan?
 
 ### Source code
-<details>
-  <summary>Contoh Source Code</summary>
 
-  ```c
+```c
 #include <stdio.h>
 
 int main() {
-    double angkaPertama, angkaKedua, hasil;
-    char op;
-    printf("Masukkan Angka Pertama, Operator, Angka Kedua. yang mana Operatornya diantara (+, -, *, /): ");
-    scanf("%lf %c %lf", &angkaPertama, &op, &angkaKedua);
+  int i, count;
 
-    switch (op) {
-        case '+':
-            hasil = angkaPertama + angkaKedua;
-            break;
-        case '-':
-            hasil = angkaPertama - angkaKedua;
-            break;
-        case '*':
-            hasil = angkaPertama * angkaKedua;
-            break;
-        case '/':
-            hasil = angkaPertama / angkaKedua;
-            break;
-        default:
-            printf("Operator mu salah");
-    }
-    printf("%.1lf %c %.1lf = %.1lf\n", 
-        angkaPertama, op, angkaKedua, hasil);
+  printf("Masukkan jumlah quack: ");
+  scanf("%d", &count);
+
+  i = 1;
+  while (i <= count) {
+    printf("Quack! ");
+    i++;
+  }
+  printf("\n");
+
+  return 0;
 }
-  ```
-</details>
+
+/*
+Output:
+
+Masukkan jumlah quack: 3
+Quack! Quack! Quack!
+*/
+```
+
+[>> Silabus >>](../silabus.md)

@@ -1,4 +1,4 @@
-# 1.1 - Pengantar (Program Sederhana, Variabel, dan Input/Output)
+# 2.1 - Pengantar (Program Sederhana, Variabel, dan Input/Output)
 
 Contoh program sederhana, pengenalan variabel, dan input/output sederhana.
 
@@ -85,12 +85,12 @@ Pada bahasa C terdapat beberapa tipe variabel yang dapat digunakan. Variabel-var
 
 ### Tipe Data
 
-| Tipe Data        | Jenis Data                       | Pendefinisian                                                                        |
-| ---------------- | -------------------------------- | ------------------------------------------------------------------------------------ |
-| Integer          | Bilangan bulat                   | `char`, `short`, `int`, `long`, `long long`                                |
+| Tipe Data        | Jenis Data                       | Pendefinisian                                                                    |
+| ---------------- | -------------------------------- | -------------------------------------------------------------------------------- |
+| Integer          | Bilangan bulat                   | `char`, `short`, `int`, `long`, `long long`                                      |
 | Unsigned integer | Bilangan bulat non-negatif       | Sama seperti integer, namun diberikan imbuhan `unsigned`, contoh: `unsigned int` |
 | Floating point   | Bilangan real                    | `float`, `double`                                                                |
-| Structure        | Tipe data custom buatan pengguna | Buatan pengguna                                                                      |
+| Structure        | Tipe data custom buatan pengguna | Buatan pengguna                                                                  |
 
 Setiap tipe data tersebut memiliki rentang nilai yang berbeda-beda. Contohnya `char` yang dapat menyimpan -128 hingga 127, `int` yang dapat menyimpan hingga 2 milyar, dan lainnya.
 
@@ -160,9 +160,10 @@ Seperti yang dapat kita lihat, konstanta format `%s` dan `%d` merupakan sebuah p
 
 | Placeholder | Tipe Data              | Penjelasan                |
 | ----------- | ---------------------- | ------------------------- |
+| %c          | char                   | Karakter                  |
 | %s          | string atau char array | Tulisan alfanumerik       |
-| %d          | integer                | angka atau bilangan bulat |
-| %f          | floating point         | bilangan real             |
+| %d          | integer                | Angka atau bilangan bulat |
+| %f          | floating point         | Bilangan real             |
 
 Contoh:
 
@@ -219,4 +220,4 @@ Kode tersebut akan menangkap masukan pengguna berupa `string` kemudian nilai ter
 
 Diperlukan _ampersand_ ( `&` ) di depan variabel dengan tipe data integer/floating point. Fungsi `scanf()` yang kita gunakan ini memiliki sebuah kekurangan, yaitu tidak bisa menerima _string_ yang ber-spasi. Namun, kita akan tetap menggunakan metode ini untuk sekarang.
 
-[&gt;&gt; Materi Berikutnya (Algoritma, Pseudocode, dan Source Code)&gt;&gt;](2-AlgoritmaPseudocodeDanSourceCode.md)
+[>> Materi Berikutnya (Algoritma, Pseudocode, dan Source Code)>>](2-AlgoritmaPseudocodeDanSourceCode.md)
