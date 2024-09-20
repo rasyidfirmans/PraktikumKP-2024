@@ -1,6 +1,6 @@
 [<< Materi Sebelumnya (Operasi Assignment dan Aritmatika) <<](3-OperasiAssignmentDanAritmatika.md)
 
-# 2.4 - Pemilihan dan Perulangan Sederhana
+# 1.4 - Pemilihan dan Perulangan Sederhana
 
 Salah satu hal yang paling fundamental dalam pemrograman adalah adanya operasi pemilihan dan perulangan.
 

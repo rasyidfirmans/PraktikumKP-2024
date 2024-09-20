@@ -1,6 +1,6 @@
 [<< Materi Sebelumnya (Algoritma, Pseudocode, dan Source Code) <<](2-AlgoritmaPseudocodeDanSourceCode.md)
 
-# 2.3 - Operasi Assignment dan Aritmatika
+# 1.3 - Operasi Assignment dan Aritmatika
 
 Sebuah operasi adalah proses yang melibatkan _operand_ dan operator, untuk menggambarkan sebuah kejadian. Secara matematis, kita sudah sering menemukan operasi, seperti `1 + 1 = 2`.
 
