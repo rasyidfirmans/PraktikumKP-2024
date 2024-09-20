@@ -2,10 +2,10 @@
 
 ## BAB 1 - Structured Program Development
 
-- [Pengantar (program sederhana, variabel, dan input/output)](silabus.md)
-- [Algoritma, pseudocode, dan source code](silabus.md)
-- [Operasi assignment dan aritmatika](silabus.md)
-- [Pemilihan dengan `if-else` dan perulangan menggunakan `while`](silabus.md)
+- [Pengantar (program sederhana, variabel, dan input/output)](/BAB%201/1-ProgramSederhanaVariabelInputOutput.md)
+- [Algoritma, pseudocode, dan source code](/BAB%201/2-AlgoritmaPseudocodeDanSourceCode.md)
+- [Operasi assignment dan aritmatika](/BAB%201/3-OperasiAssignmentDanAritmatika.md)
+- [Pemilihan dengan `if-else` dan perulangan menggunakan `while`](/BAB%201/4-PemilihanPerulangan.md)
 
 ## BAB 2 - Program Control
 
