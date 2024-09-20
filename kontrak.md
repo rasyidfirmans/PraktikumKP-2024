@@ -8,7 +8,7 @@
 - Terdapat penugasan setiap minggu
 - Terdapat 2 responsi
 - Keterlambatan pengumpulan tugas:
-  - Pengurangan 5 poin/hari
+  - Pengurangan 2 poin/hari
 - Kriteria penilaian:
   - Tugas: 25%
   - Keaktifan: 15%
