@@ -3,13 +3,13 @@
 ## BAB 1 - Structured Program Development
 
 - [Pengantar (program sederhana, variabel, dan input/output)](silabus.md)
-- [Algoritma, pseudocode, dan source code](silabus.md)
 - [Operasi assignment dan aritmatika](silabus.md)
-- [Pemilihan dengan `if-else` dan perulangan menggunakan `while`](silabus.md)
+- [Algoritma, pseudocode, dan source code](silabus.md)
+- [Pemilihan dengan `if-else` dan Pemilihan dengan `switch`](silabus.md)
 
 ## BAB 2 - Program Control
 
-- [Pemilihan dengan `switch`](silabus.md)
+- [perulangan menggunakan `while`](silabus.md)
 - [Perulangan menggunakan `for`](silabus.md)
 - [Perulangan menggunakan `do-while`](silabus.md)
 - [`break` dan `continue`](silabus.md)
