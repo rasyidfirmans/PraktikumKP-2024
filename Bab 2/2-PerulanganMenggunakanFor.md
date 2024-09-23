@@ -1,6 +1,6 @@
 [<< Materi Sebelumnya (Pemilihan dengan "switch") <<](1-PemilihanDenganSwitch.md)
 
-# Perulangan menggunakan For statement
+# 2.2 Perulangan menggunakan For statement
 
 Setelah sebelumnya telah dijelaskan perulangan menggunakan **while statement** pada [Bab 1.4](https://github.com/rasyidfirmans/PraktikumKP-2024/blob/main/BAB%201/4-PemilihanPerulangan.md), kali ini kita akan menggunakan **for statement**
 

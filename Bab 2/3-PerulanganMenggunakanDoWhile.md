@@ -1,6 +1,6 @@
 [<< Materi Sebelumnya (Perulangan menggunakan "for") <<](2-PerulanganMenggunakanFor.md)
 
-# Perulangan Menggunakan "do...while"
+# 2.3 Perulangan Menggunakan "do...while"
 
 Perulangan menggunakan `do...while` merupakan sebuah model perulangan "turunan" dari `while`. Cara kerjanya pun sangat simpel, hanya sedikit berbeda dengan cara kerja statement `while`, di mana perulangan menggunakan `do...while` **menjamin bahwa loop dieksekusikan sekali**. Sebelum kalian melanjutkan, pastikan kalian sudah memahami cara kerja dan penggunaan statement `while` [di sini](https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/Bab2-StructuredProgramming/4-PemilihanPerulangan.md#perulangan-while). Jika kalian sudah memahaminya, perhatikan potongan kode di bawah ini.
 
