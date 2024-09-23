@@ -8,8 +8,8 @@ Sebuah operasi adalah proses yang melibatkan _operand_ dan operator, untuk mengg
 
 Pada dasarnya, operasi aritmatika yang didukung oleh bahasa C meliputi beberapa operator seperti yang dijelaskan pada tabel di bawah ini. Mari kita buat dua variabel sebagai contoh, `a = 20` dan `b = 15`.
 
-| Operator | Nama          | Contoh           |
-| :------: | ------------- | ---------------- |
+| Operator | Nama          | Contoh          |
+| :------: | ------------- | -------------- |
 |    +    | Penambahan    | `a + b = 35`   |
 |    -    | Pengurangan   | `a - b = 5`    |
 |    \*    | Perkalian     | `a * b = 300`  |
