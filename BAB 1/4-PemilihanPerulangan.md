@@ -1,4 +1,4 @@
-[<< Materi Sebelumnya (Operasi Assignment dan Aritmatika) <<](3-OperasiAssignmentDanAritmatika.md)
+[&lt;&lt; Materi Sebelumnya (Operasi Assignment dan Aritmatika) &lt;&lt;](3-OperasiAssignmentDanAritmatika.md)
 
 # 1.4 - Pemilihan dan Perulangan Sederhana
 
@@ -79,9 +79,9 @@ if (nilaiSaya >= 50) {
 | :------: | --------------------------------- | ---------------------------------------------- |
 |  A == B  | sama dengan                       | cek jika A sama dengan B                       |
 |  A != B  | tidak sama dengan                 | cek jika A tidak sama dengan B                 |
-|  A > B   | lebih besar dari                  | cek jika A lebih besar dari B                  |
+|  A > B  | lebih besar dari                  | cek jika A lebih besar dari B                  |
 |  A >= B  | lebih besar dari atau sama dengan | cek jika A lebih besar dari atau sama dengan B |
-|  A < B   | kurang dari                       | cek jika A kurang dari B                       |
+|  A < B  | kurang dari                       | cek jika A kurang dari B                       |
 |  A <= B  | kurang dari atau sama dengan      | cek jika A kurang dari atau sama dengan B      |
 
 ### Konjungsi
@@ -90,7 +90,7 @@ if (nilaiSaya >= 50) {
 | :------: | ----------- | ---------------------------------------------------------------------------------------------------------- |
 |    !A    | tidak (NOT) | dijalankan apabila kondisi A tidak bernilai benar                                                          |
 |  A && B  | dan (AND)   | dijalankan apabila kondisi A dan B semuanya benar                                                          |
-| A \|\| B | atau (OR)   | dijalankan apabila kondisi A bernilai benar atau B bernilai benar (salah satu dari A dan B bernilai benar) |
+| A\|\| B | atau (OR)   | dijalankan apabila kondisi A bernilai benar atau B bernilai benar (salah satu dari A dan B bernilai benar) |
 
 ### Tips
 
@@ -209,4 +209,4 @@ Quack! Quack! Quack!
 */
 ```
 
-[>> Silabus >>](../silabus.md)
+[&gt;&gt; Silabus &gt;&gt;](../silabus.md)
