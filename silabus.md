@@ -9,10 +9,10 @@
 
 ## BAB 2 - Program Control
 
-- [Pemilihan dengan `switch`](Bab%202/1-PemilihanDenganSwitch.md)
-- [Perulangan menggunakan `for`](Bab%202/2-PerulanganMenggunakanFor.md)
-- [Perulangan menggunakan `do-while`](Bab%202/3-PerulanganMenggunakanDoWhile.md)
-- [`break` dan `continue`](Bab%202/4-PerulanganBreakContinue.md)
+- [Pemilihan dengan `switch`](/BAB%202/1-PemilihanDenganSwitch.md)
+- [Perulangan menggunakan `for`](/BAB%202/2-PerulanganMenggunakanFor.md)
+- [Perulangan menggunakan `do-while`](/BAB%202/3-PerulanganMenggunakanDoWhile.md)
+- [`break` dan `continue`](/BAB%202/4-PerulanganBreakContinue.md)
 
 ## BAB 3 - Function
 
