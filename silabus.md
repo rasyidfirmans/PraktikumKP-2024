@@ -16,9 +16,9 @@
 
 ## BAB 3 - Function
 
-- [Pengenalan function](silabus.md)
-- [C library function](silabus.md)
-- [Scope function](silabus.md)
+- [Pengenalan function](/BAB%204/1-PengenalanFunction.md)
+- [C library function](/BAB%204/2-FungsiLibraryC.md)
+- [Scope function](/BAB%204/3-Scope.md)
 - [Recursive function](silabus.md)
 
 ## BAB 4 - Array
