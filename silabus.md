@@ -14,49 +14,52 @@
 - [Perulangan menggunakan `do-while`](/BAB%202/3-PerulanganMenggunakanDoWhile.md)
 - [`break` dan `continue`](/BAB%202/4-PerulanganBreakContinue.md)
 
-## BAB 3 - Function
+## BAB 3 - String dan Operasi String
+
+- [Character dan String](/BAB%203/1-CharacterAndString.md)
+
+## BAB 4 - Function
 
 - [Pengenalan function](/BAB%204/1-PengenalanFunction.md)
 - [C library function](/BAB%204/2-FungsiLibraryC.md)
 - [Scope function](/BAB%204/3-Scope.md)
-- [Recursive function](silabus.md)
 
-## BAB 4 - Array
+## BAB 5 - Array
 
-- [Pengenalan array](silabus.md)
-- [Array multidimensi](silabus.md)
-- [Array sebagai parameter fungsi](silabus.md)
+- [Pengenalan Array](BAB%205/1-PengenalanArray.md)
+- [Array Multidimensi](BAB%205/2-ArrayMultidimensi.md)
+- [Array sebagai Parameter Fungsi](BAB%205/3-ArraySebagaiParameterFungsi.md)
 
-## BAB 5 - Pointer
+## BAB 6 - Pointer
 
 - [Pengenalan pointer](silabus.md)
 - [Pass by reference](silabus.md)
 - [Dynamic memory allocation](silabus.md)
 
-## BAB 6 - Formatted I/O
+## BAB 7 - Formatted I/O
 
 - [`prinft` formats](silabus.md)
 - [`scanf` formats](silabus.md)
 
-## BAB 7 - Topik C Lanjutan
+## BAB 8 - Topik C Lanjutan
 
 - [`struct` dan `union`](silabus.md)
 - [Bit manipulation](silabus.md)
 - [Enumeration](silabus.md)
 
-## BAB 8 - File Processing
+## BAB 9 - File Processing
 
 - [Pengantar](silabus.md)
 - [Sequential access](silabus.md)
 - [Random access](silabus.md)
 
-## BAB 9 - Struktur Data
+## BAB 10 - Struktur Data
 
 - [Array linked list](silabus.md)
 - [Stack dan queue](silabus.md)
 - [Tree](silabus.md)
 
-## BAB 10 - Preprocessor
+## BAB 11 - Preprocessor
 
 - [Pengantar](silabus.md)
 - [Symbolic constant dan macro](silabus.md)
