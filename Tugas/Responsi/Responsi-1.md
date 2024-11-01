@@ -32,7 +32,8 @@ Selanjutnya, buat sebuah dokumentasi dari program supaya asisten dapat memahami 
 
 - Judul program
 - Deskripsi program
-- Daftar fitur (bisa disertakan screenshot)
+- Analisis source code (jelaskan code-code yang ada di program)
+- Daftar fitur (Jalan kerja program, bisa disertakan screenshot)
 
 ## Bobot Penilaian
 
