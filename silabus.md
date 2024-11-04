@@ -32,14 +32,15 @@
 
 ## BAB 6 - Pointer
 
-- [Pengenalan pointer](silabus.md)
-- [Pass by reference](silabus.md)
-- [Dynamic memory allocation](silabus.md)
+- [Pengenalan pointer](BAB%206/1-Pengenalan.md)
+- [Pass by reference](BAB%206/2-PassByRef.md)
+- [Dynamic memory allocation](BAB%206/3-DMA.md)
 
 ## BAB 7 - Formatted I/O
 
-- [`prinft` formats](silabus.md)
-- [`scanf` formats](silabus.md)
+- [Rekrusi](BAB%207/1-Rekrusi.md)
+<!-- - [`prinft` formats](silabus.md)
+- [`scanf` formats](silabus.md) -->
 
 ## BAB 8 - Topik C Lanjutan
 
