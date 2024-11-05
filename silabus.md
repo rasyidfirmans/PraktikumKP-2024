@@ -36,7 +36,7 @@
 - [Pass by reference](BAB%206/2-PassByRef.md)
 - [Dynamic memory allocation](BAB%206/3-DMA.md)
 
-## BAB 7 - Formatted I/O
+## BAB 7 - Rekrusi
 
 - [Rekrusi](BAB%207/1-Rekrusi.md)
 <!-- - [`prinft` formats](silabus.md)
