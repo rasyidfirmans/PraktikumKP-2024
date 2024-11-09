@@ -6,7 +6,6 @@ void rekrusi(int i){
         return;
     }
     return rekrusi(--i);
-    printf("kelewatan\n");
 }
 
 int main(int argc, char const *argv[])
