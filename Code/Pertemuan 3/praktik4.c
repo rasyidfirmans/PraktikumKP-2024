@@ -9,11 +9,15 @@ int main(int argc, char const *argv[])
 
     scanf("%d", &n);
 
-    printf("%d\n", a);
-    printf("%d\n", b);
-
-    for (int i = 0; i < n - 2; i++)
+    for (int i = 0; i < n; i++)
     {
+        // base case ketika suku ke-0 dan ke-1
+        if (i == 0 || i == 1)
+        {
+            printf("%d\n", i);
+            continue;
+        }
+
         c = a + b;
         printf("%d\n", c);
         a = b;
