@@ -36,6 +36,11 @@
 - [Pass by reference](BAB%206/2-PassByRef.md)
 - [Dynamic memory allocation](BAB%206/3-DMA.md)
 
-## BAB 7 - Rekrusi
+## BAB 7 - Rekursi
 
-- [Rekrusi](/BAB%207/1-Rekursi.md)
+- [Rekursi](/BAB%207/1-Rekursi.md)
+
+## BAB 8 - Struct, Union, Enumeration, Bit Manipulation
+- [Struct dan Union](/BAB%208/1-StructUnion.md)
+- [Enumeration](/BAB%208/2-Enum.md)
+- [Bit Manipulation](/BAB%208/3-BitManipulation.md)
