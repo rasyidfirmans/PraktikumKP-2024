@@ -38,30 +38,4 @@
 
 ## BAB 7 - Rekrusi
 
-- [Rekrusi](BAB%207/1-Rekrusi.md)
-<!-- - [`prinft` formats](silabus.md)
-- [`scanf` formats](silabus.md) -->
-
-## BAB 8 - Topik C Lanjutan
-
-- [`struct` dan `union`](silabus.md)
-- [Bit manipulation](silabus.md)
-- [Enumeration](silabus.md)
-
-## BAB 9 - File Processing
-
-- [Pengantar](silabus.md)
-- [Sequential access](silabus.md)
-- [Random access](silabus.md)
-
-## BAB 10 - Struktur Data
-
-- [Array linked list](silabus.md)
-- [Stack dan queue](silabus.md)
-- [Tree](silabus.md)
-
-## BAB 11 - Preprocessor
-
-- [Pengantar](silabus.md)
-- [Symbolic constant dan macro](silabus.md)
-- [Conditional compilation](silabus.md)
+- [Rekrusi](/BAB%207/1-Rekursi.md)
