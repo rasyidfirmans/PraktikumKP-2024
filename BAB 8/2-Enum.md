@@ -1,6 +1,6 @@
-[<< Materi Sebelumnya (Bit Manipulation)](2-BitManipulation.md)
+[<< Materi Sebelumnya (Struct dan Union)](1-StructUnion.md)
 
-# 8.3 - Enumeration
+# 8.2 - Enumeration
 
 ## Pengantar
 
@@ -125,4 +125,4 @@ Menggunakan Ruang Aula Kecil
 
 Enum dapat digunakan untuk menandai pilihan secara lebih efisien. Tanpa enum, kalian antara harus melakukan `char ruang_ujian[] = "RuangAulaKecil" ` dan melakukan `strcmp()` setiap kali mengecek yang sangat tidak efisien, atau melakukan `int ruang_ujian = 5` yang membingungkan, atau membuat variabel tiap ruangan (seperti enum tapi menggunakan variabel) yang tidak efisien, karena **tiap** variabel berbobot 4 bytes, sedangkan **seluruh** enum berbobot 4 bytes.
 
-[Kembali ke Silabus >>](../silabus.md)
+[Materi Selanjutnya (Bit Manipulation) >>](3-BitManipulation.md)
