@@ -718,4 +718,4 @@ Weapon name: Desert Eagle
 */
 ```
 
-[Materi Selanjutnya (Bit Manipulation) >>](2-BitManipulation.md)
+[Materi Selanjutnya (Enumeration) >>](2-Enum.md)

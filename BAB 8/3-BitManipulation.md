@@ -1,6 +1,6 @@
-[<< Materi Sebelumnya (Struct dan Union)](1-StructUnion.md)
+[<< Materi Sebelumnya (Enumeration)](2-Enum.md)
 
-# 8.2 - Bit Manipulation
+# 8.3 - Bit Manipulation
 
 Apa itu Bit Manipulation? Bit Manipulation adalah tindakan memanipulasi bit secara algoritmik atau data lain yang lebih pendek atau kecil dari satu byte. Dan bahasa C sangat efisien dalam melakuakn memanipulasi bit ini.
 
@@ -266,4 +266,4 @@ int main() {
 }
 ```
 
-[Materi Selanjutnya (Enumeration) >>](3-Enum.md)
+[Menuju Silabus >>](/silabus.md)
