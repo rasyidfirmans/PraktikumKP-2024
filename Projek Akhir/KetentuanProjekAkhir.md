@@ -1,4 +1,4 @@
-# Ketentuan Projek Akhir Konsep Pemrograman 2024
+# 📍Ketentuan Projek Akhir Konsep Pemrograman 2024
 
 - 1 kelas dibagi menjadi 8 kelompok, maksimal 5 orang perkelompok
 - Game dibuat dengan menggunakan library SFML
@@ -17,6 +17,6 @@
 - Deadline pengerjaan projek akhir: `17 Desember 2024`
 - Presentasi projek akhir (tidak harus buat ppt): `18 Desember 2024` -- `kondisional`
 
-# SFML Installation Guide
+# 🚀 SFML Installation Guide
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lFzpkvrscs4?si=MM2n4d0L9-AWeEAa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![SFML Installation](https://i.ytimg.com/vi/lFzpkvrscs4/maxresdefault.jpg)](https://youtu.be/lFzpkvrscs4?si=Xk9G0sQVn-cMxPgl)
