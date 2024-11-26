@@ -1,6 +1,6 @@
 [<< Stack dan Queue](2-StackQueue.md)
 
-# Tree
+# 9.3 - Tree
 
 ## Pengertian Tree
 
